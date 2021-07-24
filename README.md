@@ -1,13 +1,24 @@
-# ParticleGround-Portfolio
+# ParticleGround Portfolio
 
-A particle-theme template as a landing page for your portfolio.
 
-> [Demo]()
 
 ```
-Personal Website 🛠️: https://adityamangal.codes
+A minimalistic particle theme landing page template. ⚛️
 
 ```
+
+
+##  Personal Website 🛠️: 
+
+> [Click here](https://adityamangal.codes)
+
+
+
+## Demo 🛠️
+
+
+![Screenshot (348)](https://user-images.githubusercontent.com/68494604/126773599-48db3063-3192-4706-ac0e-14cb9da72b5c.png)
+
 
 # Using the Template
 
@@ -34,4 +45,6 @@ The particle feature was obtained with the help of this [particleground](https:/
 
 # References and Inspiration
 
+```
 This template is a minimal form of the [Particle Jekyll Template](https://github.com/nrandecker/particle).
+```
