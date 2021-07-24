@@ -72,6 +72,7 @@ h2 {
   font-weight: 120;
   color: #ffffff;
   letter-spacing: 0.05em;
+  display: inline;
 }
 h1::after {
   content: '';
@@ -128,4 +129,9 @@ p {
   h1::after {
     height: 4px;
   }
+}
+
+.typed-cursor {
+  font-size: 70px;
+  color: #5cbdaa;
 }

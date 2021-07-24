@@ -9,16 +9,32 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" type="text/css">
   <!-- remember, jQuery is completely optional -->
-  <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
+  <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script>
   <script type="text/javascript" src="js/jquery.particleground.js"></script>
   <script type="text/javascript" src="js/demo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // typing text animation script
+        var typed = new Typed('#typed', {
+          strings: ['Aditya Mangal'],
+          showCursor: true,
+          cursorChar: '|',
+          autoInsertCss: true,
+          typeSpeed: 60,
+          backSpeed: 60,
+          backDelay: 2000,
+          loop: true,
+        });
+      });
+    </script>
 </head>
 
 <body>
 
 <div id="particles">
   <div id="intro">
-      <h2 style="font-family: 'Syncopate', sans-serif; font-weight: 10;">Aditya Mangal</h2>
+      <h2 id="typed" style="font-family: 'Syncopate', sans-serif; font-weight: 10;"></h2>
         <hr style="width: 50%; background-color: #E83951; border-color: #E83951;">
     <a href="https://linkedin.com/in/aditya-mangal-b876041b4/" style="color: white;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
     &nbsp
